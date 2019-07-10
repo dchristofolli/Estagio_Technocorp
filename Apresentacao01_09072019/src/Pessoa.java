@@ -1,7 +1,7 @@
 public class Pessoa {
-    int id;
-    String nome;
-    double remuneracao;
+    private int id;
+    private String nome;
+    private double remuneracao;
 
     public Pessoa(int id, String nome, double remuneracao, String cpf) {
         this.id = id;
