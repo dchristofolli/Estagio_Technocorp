@@ -1,3 +1,5 @@
+package com.github.dchristofolli.technocorp.estagio.apresentacao01;
+
 public class ValeCombustivel implements Transporte {
 
     @Override

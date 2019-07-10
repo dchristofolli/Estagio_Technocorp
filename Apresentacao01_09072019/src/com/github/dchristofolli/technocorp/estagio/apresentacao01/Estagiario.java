@@ -1,3 +1,5 @@
+package com.github.dchristofolli.technocorp.estagio.apresentacao01;
+
 public class Estagiario extends Pessoa {
     public Estagiario(int id, String nome, double remuneracao, String cpf, String dataInicioContrato,
                       String dataFimContrato) {

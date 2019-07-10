@@ -1,7 +1,9 @@
+package com.github.dchristofolli.technocorp.estagio.apresentacao01;
+
 public class Programador extends Pessoa {
     @Override
     public String toString() {
-        return "Programador:" +
+        return "com.github.dchristofolli.technocorp.estagio.apresentacao01.Programador:" +
                 "\nNome: " + getNome() +
                 "\nData de Admissão: " + dataAdmissao +
                 "\nNível: " + nivel +

@@ -1,3 +1,5 @@
+package com.github.dchristofolli.technocorp.estagio.apresentacao01;
+
 public class Cadastro {
     public static void main(String[] args) {
         Programador programador = new Programador(1, "Daniel", 6000, "05553232694",
