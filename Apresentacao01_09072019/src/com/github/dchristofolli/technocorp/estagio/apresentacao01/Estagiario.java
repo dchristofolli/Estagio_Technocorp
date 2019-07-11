@@ -13,6 +13,7 @@ public class Estagiario extends Pessoa implements Remuneracao {
     private String dataInicioContrato;
     private String dataFimContrato;
 
+    @Override
     public String defineTipoRemuneracao(){
         return "Bolsa Estágio";
     }

@@ -20,6 +20,7 @@ public class Programador extends Pessoa implements Remuneracao {
                 "\nNome: " + getNome() +
                 "\nData de Admissão: " + dataAdmissao +
                 "\nTipo de remuneração: " + tipoRemuneracao +
+                "\nValor da remuneração: " +getValorRemuneracao()+
                 "\nNível: " + nivel +
                 "\nCPF: " + cpf;
     }
