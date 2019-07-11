@@ -1,34 +1,35 @@
 package com.github.dchristofolli.technocorp.estagio.apresentacao01;
 
-public class Programador extends Pessoa {
-    @Override
-    public String toString() {
-        return "com.github.dchristofolli.technocorp.estagio.apresentacao01.Programador:" +
-                "\nNome: " + getNome() +
-                "\nData de Admissão: " + dataAdmissao +
-                "\nNível: " + nivel +
-                "\nValor do Ticket Car: " + valeCombustivel.getValor() +
-                "\nCPF: '" + cpf;
-    }
-
-    public Programador(int id, String nome, double remuneracao, String cpf, String dataAdmissao, String nivel,
-                       ValeCombustivel valeCombustivel) {
-        super(id, nome, remuneracao, cpf);
+public class Programador extends Pessoa implements Remuneracao {
+    public Programador(int id, String nome, String nivel, double valorRemuneracao, String cpf, String dataAdmissao) {
+        super(id, nome, valorRemuneracao, cpf);
         this.dataAdmissao = dataAdmissao;
         this.nivel = nivel;
-        this.valeCombustivel = valeCombustivel;
     }
-
     private String dataAdmissao;
     private String nivel;
-    private ValeCombustivel valeCombustivel;
+    private String tipoRemuneracao = defineTipoRemuneracao();
 
-    public ValeCombustivel getValeCombustivel() {
-        return valeCombustivel;
+    @Override
+    public String defineTipoRemuneracao() {
+        return "Salário";
+    }
+    @Override
+    public String toString() {
+        return "Programador" +
+                "\nNome: " + getNome() +
+                "\nData de Admissão: " + dataAdmissao +
+                "\nTipo de remuneração: " + tipoRemuneracao +
+                "\nNível: " + nivel +
+                "\nCPF: " + cpf;
     }
 
-    public void setValeCombustivel(ValeCombustivel valeCombustivel) {
-        this.valeCombustivel = valeCombustivel;
+    public String getTipoRemuneracao() {
+        return tipoRemuneracao;
+    }
+
+    public void setTipoRemuneracao(String tipoRemuneracao) {
+        this.tipoRemuneracao = tipoRemuneracao;
     }
 
     public String getDataAdmissao() {

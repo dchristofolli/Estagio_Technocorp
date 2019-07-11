@@ -1,0 +1,58 @@
+Apresentação 01
+- Github
+	Controle de versão
+		Versões diferentes facilitam a volta para um estado anterior do sistema, após a detecção de algum bug
+		ou da necessidade de desfazer alguma alteração.
+	Github
+		Serviço web compartilhado para armazenar projetos que usam o git para controlo de versão.
+		Funciona também como uma rede social, onde todos os usuários têm acesso aos repositórios públicos.
+	Comandos mais usados:
+		git init => cria um novo repositório;
+		git clone => copia a partir de um repositório remoto;
+		git add => adiciona um ou vários arquivos ao working directory;
+		git commit -m => confirma as alterações e envia o arquivo para o head, que sempre aponta para o último commit;
+		git push origin master => envia as alterações ao repositório. O 'master' pode ser alterado para qualquer branch.
+		git remote add origin <servidor> => conecta a um repositório que não foi clonado;
+		git checkout -b <branch> => cria um novo branch;
+		git checkout master => retorna para o master;
+		git branch -d <branch> => remove o branch;
+		git push origin <branch> => envia o branch para o repositório remoto;
+		git pull => atualiza o repositório local, tentando fazer o merge com as atualizações remotas;
+		git merge <branch> => tenta fazer o merge das alterações.
+		    Conflitos são exibidos pelo git e devem ser tratados e novamente adicionados (git add <arquivo>);
+		git diff <branch origem> <branch destino> => lista as alterações que foram feitas antes do merge;
+		git tag => rotula um release 'git tag 1.0.0 1b2e1d63ff';
+		git log => exibe o id de um commit;
+		git checkout -- <arquivo> => sobrescreve alterações locais;
+
+
+
+- Controle de acessos
+	Public: Pode ser acessado por todas as classes;
+	Private: Acessado somente pela classe que o criou ou através dos getters e setters;
+	Protected: Acessado somente pelo package ao qual pertence. Pode ser acessado por outro package através da herança
+
+- Statics
+	O objeto é usado globalmente dentro da classe. Muito usado para contadores.
+	O atributo static faz com que um objeto seja global, ou seja, pode ser acessado por todos os outros objetos
+	    em uma classe
+	Se a variável não for static, ela fica com uma cópia diferente para cada objeto.
+- OOP
+	Abstração
+		Identidade =>o que é
+		Propriedades => como é
+		Métodos => o que faz
+	Encapsulamento
+		Propriedades do objeto são privadas. Só podem ser consultadas através do getter e setadas através do setter
+	Herança
+		Reaproveitamento de uma classe 'pai'
+		estabelece uma relação de 'é um'
+		classe 'cachorro' herda os atributos da classe 'animal', pois cachorro é um animal
+	Polimorfismo
+		Modificação do funcionamento interno de um método herdado de um objeto 'pai';
+- Classes Abstratas
+	Servem como modelo para as classes concretas. Podem conter código.
+	As classes concretas devem implementar todos os métodos definidos na classe abstrata,
+	ou se tornarão abstratas também. Os métodos abstratos não possuem implementação.
+- Interface
+	Não contém código. Os métodos possuem apenas assinatura.

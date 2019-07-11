@@ -1,23 +1,23 @@
 package com.github.dchristofolli.technocorp.estagio.apresentacao01;
 
-public class Pessoa {
+public class Pessoa implements Remuneracao {
     private int id;
     private String nome;
-    private double remuneracao;
+    private double valorRemuneracao;
 
-    public Pessoa(int id, String nome, double remuneracao, String cpf) {
+    public Pessoa(int id, String nome, double valorRemuneracao, String cpf) {
         this.id = id;
         this.nome = nome;
-        this.remuneracao = remuneracao;
+        this.valorRemuneracao = valorRemuneracao;
         this.cpf = cpf;
     }
 
-    public double getRemuneracao() {
-        return remuneracao;
+    public double getValorRemuneracao() {
+        return valorRemuneracao;
     }
 
-    public void setRemuneracao(double remuneracao) {
-        this.remuneracao = remuneracao;
+    public void setValorRemuneracao(double valorRemuneracao) {
+        this.valorRemuneracao = valorRemuneracao;
     }
 
     public int getId() {
@@ -45,4 +45,9 @@ public class Pessoa {
     }
 
     String cpf;
+
+    @Override
+    public String defineTipoRemuneracao() {
+        return null;
+    }
 }
