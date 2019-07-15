@@ -1,12 +1,11 @@
-package com.github.dchristofolli.technocorp.estagio.apresentacao01;
+package com.github.dchristofolli.technocorp.estagio.apresentacao01.cadastro;
 
 public class Programador extends Pessoa implements Remuneracao {
-    public Programador(int id, String nome, String nivel, double valorRemuneracao, String cpf, String dataAdmissao) {
+    public Programador(int id, String nome, String nivel, double valorRemuneracao, String cpf) {
         super(id, nome, valorRemuneracao, cpf);
-        this.dataAdmissao = dataAdmissao;
         this.nivel = nivel;
     }
-    private String dataAdmissao;
+
     private String nivel;
     private String tipoRemuneracao = defineTipoRemuneracao();
 
@@ -18,7 +17,6 @@ public class Programador extends Pessoa implements Remuneracao {
     public String toString() {
         return "Programador" +
                 "\nNome: " + getNome() +
-                "\nData de Admissão: " + dataAdmissao +
                 "\nTipo de remuneração: " + tipoRemuneracao +
                 "\nValor da remuneração: " +getValorRemuneracao()+
                 "\nNível: " + nivel +
@@ -31,14 +29,6 @@ public class Programador extends Pessoa implements Remuneracao {
 
     public void setTipoRemuneracao(String tipoRemuneracao) {
         this.tipoRemuneracao = tipoRemuneracao;
-    }
-
-    public String getDataAdmissao() {
-        return dataAdmissao;
-    }
-
-    public void setDataAdmissao(String dataAdmissao) {
-        this.dataAdmissao = dataAdmissao;
     }
 
     public String getNivel() {

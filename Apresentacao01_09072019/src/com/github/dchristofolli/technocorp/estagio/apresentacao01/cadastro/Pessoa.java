@@ -1,6 +1,6 @@
-package com.github.dchristofolli.technocorp.estagio.apresentacao01;
+package com.github.dchristofolli.technocorp.estagio.apresentacao01.cadastro;
 
-public class Pessoa implements Remuneracao {
+public class Pessoa {
     private int id;
     private String nome;
     private double valorRemuneracao;
@@ -46,8 +46,4 @@ public class Pessoa implements Remuneracao {
 
     String cpf;
 
-    @Override
-    public String defineTipoRemuneracao() {
-        return null;
-    }
 }

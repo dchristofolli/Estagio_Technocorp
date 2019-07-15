@@ -6,6 +6,13 @@ Apresentação 01
 	Github
 		Serviço web compartilhado para armazenar projetos que usam o git para controlo de versão.
 		Funciona também como uma rede social, onde todos os usuários têm acesso aos repositórios públicos.
+
+	Milestone
+
+	Issue
+
+	Pull Request
+
 	Comandos mais usados:
 		git init => cria um novo repositório;
 		git clone => copia a partir de um repositório remoto;
@@ -55,4 +62,16 @@ Apresentação 01
 	As classes concretas devem implementar todos os métodos definidos na classe abstrata,
 	ou se tornarão abstratas também. Os métodos abstratos não possuem implementação.
 - Interface
-	Não contém código. Os métodos possuem apenas assinatura.
+	Uma interface é uma classe que contém especificações que serão usadas pelas outras classes.
+	Ou seja, ela tem por objetivo criar um contrato que deverá ser obedecido nas classes onde for implementada.
+	Os métodos criados na interface não têm corpo, apenas assinatura.
+
+	Adicionados:
+- Estruturas de dados (Map, HashMap, set, stack, queue)
+    Map => Estrutura de dados com chave e valor. Map <k, v> map = new HashMap <>
+        A classe HashMap é uma implementação da interface Map
+    Set => É uma lista que não aceita elementos duplicados
+    Stack => LIFO
+    Queue => FIFO
+
+- Exceções (Try catch)
