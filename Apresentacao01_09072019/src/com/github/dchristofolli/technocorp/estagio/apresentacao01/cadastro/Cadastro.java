@@ -14,19 +14,25 @@ public class Cadastro {
     private static void menuCadastro() {
         String escolha = input("Cadastro\nSelecione uma opção:\n1 - Cadastrar novo programador" +
                 "\n2 - Listar programadores\n3 - Cadastrar novo estagiário\n4 - Listar estagiários\nENTER - Sair");
-        if (escolha.equals("1")){
-            cadastraProgramador();}
-        else if (escolha.equals("2")){
-            listaProgramador();}
-        else if (escolha.equals("3")){
-            cadastraEstagiário();}
-        else if (escolha.equals("4")){
-            listaEstagiario();}
-        else if (escolha.equals("")){
-            System.exit(0);
-        }
-        else{
-            System.out.println("Opção inválida.");
+        switch (escolha){
+            case "1":{
+                cadastraProgramador();
+            }
+            case "2":{
+                listaProgramador();
+            }
+            case "3":{
+                cadastraEstagiário();
+            }
+            case "4":{
+                listaEstagiario();
+            }
+            case "":{
+                System.exit(0);
+            }
+            default:{
+                System.out.println("Opção inválida. Tente novamente.\n");
+            }
         }
     }
 
@@ -67,7 +73,7 @@ public class Cadastro {
             cadastraCPF();
         }
         else
-            System.out.println("CPF válido");
+            System.out.println("Programador cadastrado com sucesso com a id: " + idProgramador + "\n");
         programadorArray[idProgramador] = (new Programador(idProgramador, nomeProgramador, nivel, salario, cpfProgramador));
         idProgramador ++;
         menuCadastro();

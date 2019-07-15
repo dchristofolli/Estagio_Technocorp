@@ -4,14 +4,17 @@ Apresentação 01
 		Versões diferentes facilitam a volta para um estado anterior do sistema, após a detecção de algum bug
 		ou da necessidade de desfazer alguma alteração.
 	Github
-		Serviço web compartilhado para armazenar projetos que usam o git para controlo de versão.
+		Serviço web compartilhado para armazenar projetos que usam o git para controle de versão.
 		Funciona também como uma rede social, onde todos os usuários têm acesso aos repositórios públicos.
 
-	Milestone
+	Milestone => A funcionalidade milestone (etapa em Português) serve para agrupar issues e pull requests á volta
+	de uma etapa. Assim pode ter-se um registo de que coisas precisam de estar resolvidas para a etapa estar completa.
 
-	Issue
+	Issue => Report de bugs ou falhas de digitação.
 
-	Pull Request
+	Pull Request => Solicitação de autorização para commitar em um repositório de terceiros. Primeiro, fazemos um fork
+	do repositório principal para o nosso repositório, trabalhamos nas alterações que serão feitas, commitamos para o
+	nosso git, e fazemos o pull request
 
 	Comandos mais usados:
 		git init => cria um novo repositório;
