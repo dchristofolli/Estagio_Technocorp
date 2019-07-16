@@ -7,6 +7,7 @@ public class Cadastro {
     static Estagiario[] estagiarioArray = new Estagiario[10];
     static int idProgramador = 1;
     static int idEstagiario = 1;
+
     public static void main(String[] args) {
         menuCadastro();
     }

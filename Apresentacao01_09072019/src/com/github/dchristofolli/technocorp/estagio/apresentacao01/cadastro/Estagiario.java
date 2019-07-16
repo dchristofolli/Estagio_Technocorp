@@ -1,7 +1,7 @@
 package com.github.dchristofolli.technocorp.estagio.apresentacao01.cadastro;
 
 
-public class Estagiario extends Pessoa implements Remuneracao {
+public class Estagiario extends Pessoa implements Remuneracao, Cloneable {
 
     public Estagiario(int id, String nome, double valorRemuneracao, String cpf) {
         super(id, nome, valorRemuneracao, cpf);

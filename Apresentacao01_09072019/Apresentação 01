@@ -76,5 +76,12 @@ Apresentação 01
     Set => É uma lista que não aceita elementos duplicados
     Stack => LIFO
     Queue => FIFO
-
 - Exceções (Try catch)
+- Acessos por referência e cópia.
+    Referência ok. Dúvidas em cópia
+- Mutable - Immutable
+    Um objeto imutável é declarado com o modificador "final", que não permite que sejam feitas alterações no mesmo
+- Thread semáforos, synchronized.
+    Thread é a menor parte executável de um programa
+    Semáforos organizam a execução de threads, evitando que duas ou mais threads acessem ou modifiquem o
+     mesmo dado simultaneamente.
