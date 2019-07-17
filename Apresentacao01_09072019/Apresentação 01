@@ -78,3 +78,11 @@ Apresentação 01
     Queue => FIFO
 
 - Exceções (Try catch)
+
+- Acessos por referência e cópia.
+    Referência => O acesso é feito à instância do objeto através do THIS.
+    Cópia => Feita de várias formas:
+        shallow copy (Interface Cloneable) => copia o endereço de memória do objeto.
+        ou deep copy (Interface Cloneable) => copia toda a árvore do objeto.
+- Mutable - Immutable
+- Thread semáforos, synchronized

@@ -9,6 +9,21 @@ public class Cadastro {
     static int idEstagiario = 1;
     public static void main(String[] args) {
         menuCadastro();
+//        Programador programador = new Programador(999, "Tide", "Júnior", 3200.00,
+//                "18674328032");
+//        Programador clone = (Programador) programador.clone();
+//        System.out.println("programador:\n " + programador);
+//        System.out.println("\nclone:\n" + clone);
+//        programador.setNivel("PROGRAMADOR");
+//        clone.setNivel("CLONE");
+//        System.out.println("\nDepois da modificação nas Strings(tipo primitivo): ");
+//        System.out.println("\nprogramador:\n " + programador.getNivel());
+//        System.out.println("\nclone:\n" + clone.getNivel());
+//        programador.setId(555);
+//        clone.setId(666);
+//        System.out.println("\nProgramador: " + programador.getId());
+//        System.out.println("\nClone: " + clone.getId());
+
     }
 
     private static void menuCadastro() {

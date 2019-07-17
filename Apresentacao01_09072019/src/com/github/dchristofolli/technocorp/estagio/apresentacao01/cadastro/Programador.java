@@ -1,6 +1,6 @@
 package com.github.dchristofolli.technocorp.estagio.apresentacao01.cadastro;
 
-public class Programador extends Pessoa implements Remuneracao {
+public class Programador extends Pessoa implements Remuneracao, Cloneable {
     public Programador(int id, String nome, String nivel, double valorRemuneracao, String cpf) {
         super(id, nome, valorRemuneracao, cpf);
         this.nivel = nivel;
@@ -22,6 +22,15 @@ public class Programador extends Pessoa implements Remuneracao {
                 "\nNível: " + nivel +
                 "\nCPF: " + cpf;
     }
+    public Object clone() {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            System.out.println("Clonagem não permitida. " + e);
+            return this;
+        }
+    }
+
 
     public String getTipoRemuneracao() {
         return tipoRemuneracao;
