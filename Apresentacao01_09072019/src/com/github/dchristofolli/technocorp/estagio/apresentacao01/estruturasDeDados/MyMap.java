@@ -16,6 +16,7 @@ public class MyMap {
         System.out.println(roman);
 
         System.out.println("Tamanho do map: " + roman.size());
+        System.out.println(roman.get(5));
         System.out.println("Contém a chave 5? " +roman.containsKey(5));
         System.out.println("Contém o valor L? " + roman.containsValue("L"));
         System.out.println(roman.entrySet());

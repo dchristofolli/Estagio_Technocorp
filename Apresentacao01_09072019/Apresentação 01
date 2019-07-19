@@ -59,7 +59,7 @@ Apresentação 01
 		estabelece uma relação de 'é um'
 		classe 'cachorro' herda os atributos da classe 'animal', pois cachorro é um animal
 	Polimorfismo
-		Modificação do funcionamento interno de um método herdado de um objeto 'pai';
+		Modificação do funcionamento interno de um método herdado de uma classe abstrata;
 - Classes Abstratas
 	Servem como modelo para as classes concretas. Podem conter código.
 	As classes concretas devem implementar todos os métodos definidos na classe abstrata,
