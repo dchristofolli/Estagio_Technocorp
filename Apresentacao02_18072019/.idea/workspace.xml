@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41725c6f-f6a0-4316-8e8b-f8cd5bd2aae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/daniel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/java8/List_Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/java8/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Filosofo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Garfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apresentacao01_09072019/Apresentação 01" beforeDir="false" afterPath="$PROJECT_DIR$/../Apresentacao01_09072019/Apresentação 01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apresentacao01_09072019/src/com/github/dchristofolli/technocorp/estagio/apresentacao01/estruturasDeDados/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apresentacao01_09072019/src/com/github/dchristofolli/technocorp/estagio/apresentacao01/estruturasDeDados/MyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Apresentacao01_09072019/com/github/dchristofolli/technocorp/estagio/apresentacao01/cadastro/Cadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Apresentacao01_09072019/com/github/dchristofolli/technocorp/estagio/apresentacao01/cadastro/Cadastro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Apresentacao01_09072019/com/github/dchristofolli/technocorp/estagio/apresentacao01/estruturasDeDados/MyMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Apresentacao01_09072019/com/github/dchristofolli/technocorp/estagio/apresentacao01/estruturasDeDados/MyMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,55 +13,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Filosofo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/java8/Pessoa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/java8/List_Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Garfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,82 +30,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/PreocessadorThread.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/ProcessadorThread.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/threadSemaphore/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/threadSemaphore/ThreadSemaforo/SimuladorSemaforo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/threadSemaphore/ThreadSemaforo/ThreadSemaforo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/threadSemaphore/ThreadSemaforo/CorSemaforo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/ThreadSemaforo/ThreadSemaforo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/ThreadSemaforo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/threadSemaphore/ThreadNumero.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/ThreadNumero.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/CorSemaforo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/SimuladorSemaforo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/src/Palillo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/src/Garfo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/src/Filosofo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/src/optional/Optional.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/com/github/dchristofolli/technocorp/estagio/apresentacao2/newJavaFeatures/List_Stream.java" />
-        <option value="$PROJECT_DIR$/src/javaFeatures/List_Stream.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/com/github/dchristofolli/technocorp/estagio/apresentacao2/javaFeatures/List_Stream.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/com/github/dchristofolli/technocorp/estagio/apresentacao2/javaFeatures/List_Stream.java" />
-        <option value="$PROJECT_DIR$/src/NewJavaFeatures/List_Stream.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/NewJavaFeatures/List_Stream.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/List_Stream.java" />
-        <option value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/java8/List_Stream.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="y" value="27" />
     <option name="width" value="673" />
     <option name="height" value="741" />
   </component>
+  <component name="ProjectId" id="1OTFj8XdZNeOAcjixZGI2uaipZi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Apresentacao02_18072019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apresentacao02_18072019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apresentacao02_18072019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apresentacao02_18072019" type="462c0819:PsiDirectoryNode" />
-              <item name="Filosofos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apresentacao02_18072019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apresentacao02_18072019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/src/optional" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -181,7 +57,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -207,13 +83,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.List_Stream">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="List_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.dchristofolli.technocorp.estagio.apresentacao02.Filosofos.com.github.dchristofolli.technocorp.estagio.apresentacao2.newJavaFeatures.List_Stream" />
       <module name="Apresentacao02_18072019" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.dchristofolli.technocorp.estagio.apresentacao02.Filosofos.com.github.dchristofolli.technocorp.estagio.apresentacao2.newJavaFeatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.dchristofolli.technocorp.estagio.apresentacao02.threadSemaphoreSynchronized.Main" />
+      <module name="Apresentacao02_18072019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.dchristofolli.technocorp.estagio.apresentacao02.threadSemaphoreSynchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.List_Stream" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.List_Stream" />
         <item itemvalue="Application.SimuladorSemaforo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ProcessadorThread" />
@@ -301,104 +190,29 @@
       <workItem from="1563542094141" duration="80000" />
       <workItem from="1563542277540" duration="5366000" />
       <workItem from="1563556547359" duration="3360000" />
+      <workItem from="1563993814170" duration="727000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19526000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5011952" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996016" weight="0.044843048" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003984" side_tool="true" weight="0.3632287" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32884902" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/Filosofos" />
+      <path value="$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos" />
     </ignored-roots>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/threadSemaphore/ProcessadorThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/Apresentacao02/ThreadNumero.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/CorSemaforo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/SimuladorSemaforo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/ThreadNumero.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/ThreadSemaforo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/CorSemaforo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/ThreadSemaforo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaforo/threadSemaphore/SimuladorSemaforo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/Filosofos/src/optional/Optional.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/java8/List_Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/newJavaFeatures/java8/Pessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Filosofo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Garfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/dchristofolli/technocorp/estagio/apresentacao02/threadSemaphoreSynchronized/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
