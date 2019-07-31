@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class streamImprovements {
+public class StreamImprovements {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("a", "b", "c", "", "d", "e", "f");
         Stream<String> listStream = list.stream();
